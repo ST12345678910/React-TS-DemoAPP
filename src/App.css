@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #1d479b;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.button1:hover, .button2:hover, .button3:hover {
+  transform: scale(1.25);
+}
+
+.formCat {
+  text-align: center;
+  background-color: #1d479b;
+  zoom: 2;
+}
+
+.userCat {
+  text-align: center;
+  background-color: #1d479b;
+}
+
+.catFrame {
+  min-height: 100vh;
+}
+
+.catSize {
+  padding-top: 50px;
+  max-width: 40vh;
+  animation: zoominout infinite 5s forwards;
+}
+
+@keyframes zoominout {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.05, 1.05);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.form-header {
+  background-color: #1d479b;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: white;
+}
+
+.buttonBox {
+  margin-bottom: 50vh;
+}
